@@ -1,22 +1,63 @@
-%%=============================================================================
-%% CAPITULO 4 -- APRESENTACAO, ANALISE E DISCUSSAO DOS DADOS
-%%=============================================================================
+\section{Análise e discussão}
+\label{sec:analise}
 
-\section{Análise e discussão dos dados}
+A análise será organizada em uma descrição da amostra, uma apresentação das transições observadas e uma discussão das estimações. A descrição deverá informar o período coberto, os critérios de inclusão e a disponibilidade das variáveis. As comparações entre grupos ocupacionais deverão explicitar os denominadores, os pesos utilizados e as diferenças entre exposição à inteligência artificial e características efetivamente observadas dos trabalhadores.
 
-Apresente os resultados alcançados ou esperados e faça uma análise comparativa
-entre os resultados esperados e os alcançados com a execução do projeto de
-pesquisa ou de intervenção.
+A discussão dos resultados deverá considerar a magnitude das associações, sua incerteza e sua coerência com o desenho da pesquisa. Uma diferença entre períodos não será interpretada automaticamente como consequência da inteligência artificial. Será necessário examinar explicações alternativas, alterações na coleta da PNAD Contínua e possíveis mudanças na composição da amostra, mantendo a distinção entre descrição, inferência e interpretação causal.
 
-\subsection{Apresentação dos resultados}
+Este capítulo é provisório e foi preparado para o exercício ia-6.1. Não apresenta resultados numéricos novos. As tabelas e figuras da versão final deverão ser vinculadas às saídas verificadas do projeto.
+\subsection{Organização da análise}
 
-Organize os resultados na mesma ordem em que os objetivos específicos foram
-enunciados na introdução. Use tabelas, quadros e gráficos sempre que isso tornar
-a leitura mais clara, lembrando que toda ilustração precisa ser citada no texto
-(ver Tabela~\ref{tab:exemplo} e Figura~\ref{fig:exemplo}).
+A Figura~\ref{fig:fluxo-pesquisa-pnadc} apresenta as etapas previstas para organizar a pesquisa. O esquema descreve o procedimento de trabalho e não representa resultados empíricos.
 
-\subsection{Discussão}
+\begin{figure}[htb]
+  \caption{Fluxo de organização da pesquisa}
+  \label{fig:fluxo-pesquisa-pnadc}
+  \centering
+  \fbox{%
+    \begin{minipage}{0.85\textwidth}
+      \centering
+      Preparação e verificação dos insumos
 
-Confronte os resultados com o referencial teórico construído no Capítulo~2.
-Indique convergências, divergências e possíveis explicações, sempre com o devido
-suporte bibliográfico.
+      $\downarrow$
+
+      Correspondência entre classificações ocupacionais
+
+      $\downarrow$
+
+      Construção dos pares de entrevistas da PNAD Contínua
+
+      $\downarrow$
+
+      Cálculo dos indicadores e estimação das associações
+
+      $\downarrow$
+
+      Verificação dos resultados e discussão das limitações
+    \end{minipage}%
+  }
+  \fonte{Elaboração própria para o exercício ia-6.1.}
+\end{figure}
+
+A Tabela~\ref{tab:desfechos-pesquisa-pnadc} sintetiza três desfechos considerados na pesquisa. As definições operacionais completas deverão ser apresentadas na metodologia e conferidas no código de construção das variáveis.
+
+\begin{table}[htb]
+  \caption{Desfechos considerados na pesquisa}
+  \label{tab:desfechos-pesquisa-pnadc}
+  \centering
+  \begin{tabular}{p{0.28\textwidth} p{0.60\textwidth}}
+    \hline
+    \textbf{Desfecho} & \textbf{Descrição para organização da análise} \\
+    \hline
+    Mudança de ocupação &
+    Transição entre classificações ocupacionais nas entrevistas consecutivas, conforme o nível de agregação adotado. \\
+    \hline
+    Saída do emprego &
+    Passagem da condição de ocupado para uma condição sem ocupação na entrevista seguinte. \\
+    \hline
+    Passagem para a informalidade &
+    Transição de uma ocupação classificada como formal para uma classificada como informal, conforme a definição do projeto. \\
+    \hline
+  \end{tabular}
+  \fonte{Elaboração própria a partir do desenho documentado da pesquisa.}
+\end{table}
