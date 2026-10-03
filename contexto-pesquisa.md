@@ -1,118 +1,51 @@
-\# Contexto da pesquisa
+# Contexto da pesquisa
 
+## Tema e objetivo
 
+Minha pesquisa trata da exposição ocupacional à inteligência artificial e das transições no mercado de trabalho brasileiro. O objetivo é medir o gradiente condicional de transição por unidade de exposição e descrever a mobilidade entre faixas de exposição com a PNAD Contínua, antes e depois do lançamento público do ChatGPT.
 
-\## Tema e objetivo
+## Problema de pesquisa
 
+Investigo se trabalhadores em ocupações mais expostas à IA passaram a apresentar transições distintas após esse marco, considerando frequência de mudança ocupacional, direção das transições e vínculo de trabalho.
 
+## O que está decidido
 
-Minha pesquisa trata da exposição ocupacional à inteligência artificial e das transições no mercado de trabalho brasileiro.
+- PNAD Contínua como fonte e entrevistas trimestrais consecutivas para acompanhar a mesma pessoa.
+- AIOE como medida de exposição potencial da ocupação de origem. Não confundir AIOE com C-AIOE ou adoção individual de IA.
+- Preservar a abordagem conjunta da dissertação oficial, sem escolher mudança ocupacional a 3 dígitos como único resultado central.
+- Analisar mudanças ocupacionais a 2 e 3 dígitos, transições para maior e menor AIOE, saída do emprego e passagem de formal para informal; usar o pareamento como diagnóstico de atrito.
+- Manter interpretação de associação condicional, com pesos, controles e efeitos fixos; não atribuir causalidade ao lançamento do ChatGPT.
+- Posicionar a contribuição candidata como extensão temporal e comparação com antecedentes existentes, sem alegar primeira análise brasileira de IA e transições.
+- Usar este fork para o exercício e o mapa; preservar o projeto oficial ricardo-pnadc.
 
+## Como as decisões foram tomadas
 
+A pesquisa bibliográfica identificou um antecedente próximo: Cazzaniga et al. (2024), IMF WP 24/116, já usam a PNAD Contínua de 2012 a 2019 para estudar exposição e mobilidade. A busca foi exploratória; não comprova uma lacuna universal.
 
-Meu objetivo é investigar como essas transições variam conforme a exposição ocupacional à IA no Brasil, utilizando a PNAD Contínua.
+No diálogo, inicialmente escolhi mudança ocupacional e detalhamento a 3 dígitos. Depois forneci a dissertação oficial e orientei o agente a preservar sua abordagem conjunta. Confirmei o entendimento final, com AIOE e interpretação de associação condicional.
 
+As resoluções detalhadas estão nos tickets [Pesquisa: literatura e lacuna sobre IA e transições de trabalho no Brasil](https://github.com/rickpalmeiras-design/TemplateLatexIDP/issues/2) e [Decisão: desfecho central e limites da contribuição](https://github.com/rickpalmeiras-design/TemplateLatexIDP/issues/3), filhos do [Mapa da contribuição: exposição à IA e transições de trabalho no Brasil](https://github.com/rickpalmeiras-design/TemplateLatexIDP/issues/1).
 
+## O que permanece em aberto
 
-\## Problema de pesquisa
+- Demonstrar o ganho científico específico em relação aos antecedentes, comparando período, medida, população e desfechos.
+- Tratar a descontinuidade de coleta em 2020–2021, avaliar seleção longitudinal e realizar as validações previstas na oficial.
+- Verificar quais padrões persistem sob especificações alternativas antes de sustentar a mensagem empírica.
 
-
-
-Após o lançamento público do ChatGPT, trabalhadores em ocupações com diferentes níveis de exposição à inteligência artificial passaram a apresentar padrões distintos de mudança de ocupação, saída do emprego e passagem para a informalidade?
-
-
-
-\## O que já está definido
-
-
-
-\- A fonte principal é a PNAD Contínua.
-
-\- A unidade de análise é o par pessoa-trimestre, formado a partir de entrevistas consecutivas.
-
-\- A pesquisa utiliza uma medida de exposição ocupacional à IA e correspondências entre classificações ocupacionais.
-
-\- O lançamento público do ChatGPT é uma referência temporal para comparar períodos.
-
-\- O desenho documentado utiliza pesos amostrais, controles e efeitos fixos.
-
-\- Exposição ocupacional não será tratada como comprovação de adoção efetiva da tecnologia.
-
-\- Diferenças observadas não serão apresentadas automaticamente como efeitos causais.
-
-\- A dissertação já possui um projeto de análise em ricardo-pnadc. Este fork será usado para o exercício e o mapa de decisões, sem substituir o projeto original.
-
-
-
-\## O que permanece em aberto
-
-
-
-\- Qual contribuição específica diferencia esta pesquisa de estudos existentes sobre exposição à IA e mercado de trabalho.
-
-\- Qual desfecho deve organizar a mensagem principal da dissertação, mantendo os demais como análises complementares.
-
-\- Quais verificações são indispensáveis para sustentar essa mensagem.
-
-\- Que comparação com a literatura será apropriada após definir o desfecho central e conhecer suas limitações.
-
-
-
-\## Pergunta de aprofundamento sobre impacto científico
-
-
+## Pergunta de aprofundamento sobre impacto científico
 
 Que evidência e que comparação com a literatura tornariam esta pesquisa uma contribuição citável sobre exposição ocupacional à IA e transições de trabalho no Brasil?
 
+## Destino do mapa
 
+Registrar o posicionamento na literatura e o foco científico escolhido pelo autor, com limites e requisitos de evidência. Concluir o mapa de planejamento não equivale a concluir ou validar a dissertação.
 
-\## Destino pretendido do mapa
+## Ainda não especificado
 
+A arquitetura final da discussão e as implicações para administração pública permanecem indefinidas. O foco conjunto está decidido, mas ainda não está claro quais mecanismos e implicações os resultados poderão sustentar após a validação. A confirmação dos padrões que persistem permitirá formular perguntas específicas sobre comparações e mensagens institucionais. Os testes já conhecidos são verificações pendentes, não essa névoa.
 
+## Fora do escopo deste exercício
 
-Definir uma contribuição científica específica e defensável, com uma mensagem central, limites de interpretação e requisitos de evidência explicitados.
-
-
-
-\## Primeiras incertezas para investigar
-
-
-
-\### Pesquisa — resposta buscada em fontes externas
-
-
-
-Quais estudos já relacionam exposição ocupacional à IA e transições individuais de trabalho no Brasil, e que lacuna permanece em relação ao desenho desta dissertação?
-
-
-
-\### Decisão do autor — diálogo necessário
-
-
-
-Qual desfecho deve ocupar o centro da contribuição: mudança de ocupação, saída do emprego ou passagem para a informalidade?
-
-
-
-Essa decisão será tomada por mim após discutir os argumentos e as limitações com o agente.
-
-
-
-\## Ainda não especificado
-
-
-
-A forma final de apresentar e comparar a contribuição na discussão permanece indefinida. Ainda não consigo formular uma pergunta precisa sobre essa apresentação, porque ela depende da lacuna identificada na literatura e da escolha do desfecho central.
-
-
-
-\## Fora do escopo deste exercício
-
-
-
-\- Refazer agora o processamento da base original.
-
-\- Prometer identificação causal sem verificações que a sustentem.
-
-\- Redigir a dissertação completa.
-
+- Refazer o processamento da base original.
+- Prometer identificação causal sem evidência que a sustente.
+- Redigir a dissertação completa ou inventar resultados e referências.
